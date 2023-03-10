@@ -64,8 +64,11 @@ int main(void)
 
    SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
    Circle circle;
+   Circle circle2;
    circle.setPosition(200.0, 0.0);
+   circle2.setPosition(150.0, 50.0);
    circle.setSpeed(0.0, -100.0);
+   circle2.setSpeed(50.0, 50.0);
    
    static Position lastPosition = Position();
    static Position currentPosition = Position();
@@ -79,6 +82,7 @@ int main(void)
       // Update
       //----------------------------------------------------------------------------------
       circle.update(GetFrameTime());
+      circle2.update(GetFrameTime());
 
       // Update current position for comparison.
       currentPosition = circle.getPosition();
@@ -95,9 +99,9 @@ int main(void)
 
       ClearBackground(RAYWHITE);
 
-      DrawCircleV(Vector2{ 0 }, 10.0, MAROON);  // Origin
+      DrawCircleV(Vector2{ 0 }, 10.0, MAROON);
       circle.draw();
-
+      circle2.draw();
       for (auto it : crosshairPositions)
       {
          drawCrosshair(it);
