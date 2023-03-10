@@ -4,7 +4,7 @@ I created this program for two reasons: to learn how to use Raylib and to practi
 
 ### Ball's Motion
 
-![Ball's First Orbit](.\Images\Ball First Orbit.gif)
+![Ball's First Orbit](Images\Ball First Orbit.gif)
 
 As you can see in the gif above, I have a black circle orbiting the center red circle.
 
@@ -12,7 +12,7 @@ The orbiting mechanics uses real physics equations to calculate the next step of
 
 To track this slow inwards movement, I created a couple functions to draw a crosshair each time the outer ball crosses the X or Y axis. This shows how the ball slowly moves inward with time. Eventually, the ball coincides with the inner circle and stops moving.
 
-![Crosshair Movement](.\Images\Ball Crosshair.gif)
+![Crosshair Movement](Images\Ball Crosshair.gif)
 
 ### Conclusion
 
