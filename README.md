@@ -2,7 +2,7 @@
 
 I created this program for two reasons: to learn how to use Raylib and to practice my C++ skills. I had already written most of the code for the physics, so it was relatively easy to convert to using Raylib.
 
-### Demonstration
+### Ball's Motion
 
 ![Ball's First Orbit](C:\Users\k4nme\OneDrive - BYU-Idaho\Simple Programming\Ball Orbit\Images\Ball First Orbit.gif)
 
